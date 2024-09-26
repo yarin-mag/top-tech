@@ -136,8 +136,8 @@ function App() {
           </Col>
           <Col md={4} className="mb-4">
             <div className="recommendation p-3 shadow-sm">
-              <p>- היום אני מחייכת בגאווה!</p>
-              <h5>"פסיה שמעוני"</h5>
+              <p>"היום אני מחייכת בגאווה!"</p>
+              <h5>פסיה שמעוני</h5>
             </div>
           </Col>
         </Row>
