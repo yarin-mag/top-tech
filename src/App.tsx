@@ -84,7 +84,7 @@ function App() {
 
       {/* Header Section */}
       <Container className="text-center my-5">
-        <h1>המעבדה האמינה שלך לשיניים</h1>
+        <h1>מעבדת שיניים טופ-טק - תותבות שיניים מקצועיות ברחובות</h1>
         <p className="lead">!מחפשים תותבת איכותית? הגעתם אל המקום הנכון</p>
       </Container>
 
