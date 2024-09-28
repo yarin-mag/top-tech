@@ -39,7 +39,7 @@
 }
 
 /* Hide buttons on small screens */
-@media (max-width: 370px) {
+@media (max-width: 300px) {
   .nav-btn {
     display: none;
   }
