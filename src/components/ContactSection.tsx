@@ -58,7 +58,7 @@ const ContactSection: React.FC = () => {
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
             <h2 style={{ fontSize: 'clamp(1.875rem, 4vw, 2.5rem)', fontWeight: 'bold', marginBottom: '1rem' }}>
-              בואו נתחיל לעבוד יחד
+             אתם גם רוצים שנעזור לכם לחייך?
             </h2>
             <p style={{ fontSize: '1.25rem', color: '#dbeafe' }}>צרו קשר בכל דרך שנוחה לכם</p>
           </div>
