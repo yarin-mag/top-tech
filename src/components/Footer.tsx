@@ -29,9 +29,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 style={{ fontSize: '1.125rem', fontWeight: 'bold', marginBottom: '1rem' }}>שירותים</h3>
             <ul style={{ listStyle: 'none', color: '#9ca3af' }}>
-              <li style={{ marginBottom: '0.5rem' }}>שיניים תותבות</li>
-              <li style={{ marginBottom: '0.5rem' }}>שתלים מתקדמים</li>
-              <li style={{ marginBottom: '0.5rem' }}>כתרים וגשרים</li>
+              <li style={{ marginBottom: '0.5rem' }}>שיניים תותבות חדשות</li>
+              <li style={{ marginBottom: '0.5rem' }}>תיקון שיניים תותבות</li>
+              <li style={{ marginBottom: '0.5rem' }}>ריפוד תותבות</li>
             </ul>
           </div>
           <div>

@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
           maxWidth: '48rem',
           margin: '0 auto 2rem'
         }}>
-          מעבדת שיניים טופ-טק ברחובות - מובילה באיכות בתחום תותבות שיניים, שתלים וכתרים. פתרונות מתקדמים לרפואת שיניים מקצועית
+          מעבדת שיניים טופ-טק ברחובות - מובילה באיכות בתחום תותבות שיניים.
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
           <button 

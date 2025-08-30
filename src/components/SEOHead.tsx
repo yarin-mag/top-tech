@@ -105,24 +105,24 @@ const SEOHead: React.FC = () => {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "שתלי שיניים",
-              "description": "שתלי טיטניום איכותיים עם טכנולוגיה מתקדמת"
+              "name": "תותבות שיניים חדשות",
+              "description": "תותבות שיניים חדשות באותו היום!"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "כתרים וגשרים",
-              "description": "כתרי חרסינה ומתכת במדידה אישית"
+              "name": "תיקון תותבות",
+              "description": "תיקון תותבות שיניים תוך חצי שעה"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "תותבות שיניים",
-              "description": "פתרונות תותבות חלקיות ומלאות"
+              "name": "ריפוד תותבות שיניים",
+              "description": "ריפוד תותבות במקום"
             }
           }
         ]
