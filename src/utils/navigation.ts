@@ -11,9 +11,7 @@ export const getNavigationOptions = (address: string): NavigationOption[] => {
 
   // Multiple Waze URL formats for better compatibility
   const wazeUrls = [
-    `https://www.waze.com/he/live-map/directions/%D7%91%D7%99%D7%AA-%D7%94%D7%A4%D7%95%D7%A2%D7%9C%D7%99%D7%9D-6-%D7%A8%D7%97%D7%95%D7%91%D7%95%D7%AA?navigate=yes&q=%D7%91%D7%99%D7%AA+%D7%94%D7%A4%D7%95%D7%A2%D7%9C%D7%99%D7%9D+6+%D7%A8%D7%97%D7%95%D7%91%D7%95%D7%AA&to=place.w.22806847.228134006.554426`,
-    `https://www.waze.com/ul?ll=31.8969,34.8186&navigate=yes`,
-    `waze://?ll=31.8969,34.8186&navigate=yes&q=בית%20הפועלים%206%20רחובות`
+    `https://waze.com/ul/hsv8v2neyu`
   ];
 
   return [
@@ -91,10 +89,7 @@ export const openSmartNavigation = (address: string) => {
 // Open Waze with fallback options
 export const openWaze = () => {
   const wazeUrls = [
-    `https://waze.com/ul?ll=31.8969,34.8186&navigate=yes&q=בית%20הפועלים%206%20רחובות`,
-    `https://www.waze.com/ul?ll=31.8969,34.8186&navigate=yes`,
-    `waze://?ll=31.8969,34.8186&navigate=yes`,
-    `https://www.waze.com/he/live-map/directions?to=ll.31.8969%2C34.8186`
+    `https://waze.com/ul/hsv8v2neyu`,
   ];
 
   // Try the first URL
