@@ -2,6 +2,11 @@ import { Award, Shield, Users } from 'lucide-react';
 
 export const services = [
     {
+        title: "שיניים תותבות",
+        description: "פתרונות תותבות חלקיות ומלאות",
+        icon: Users
+    },
+    {
         title: "שתלים מתקדמים",
         description: "שתלי טיטניום איכותיים עם טכנולוגיה מתקדמת",
         icon: Award
@@ -11,11 +16,6 @@ export const services = [
         description: "כתרי חרסינה ומתכת במדידה אישית",
         icon: Shield
     },
-    {
-        title: "שיניים תותבות",
-        description: "פתרונות תותבות חלקיות ומלאות",
-        icon: Users
-    }
 ];
 
 export const testimonials = [
