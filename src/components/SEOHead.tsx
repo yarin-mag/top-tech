@@ -45,8 +45,8 @@ const SEOHead: React.FC = () => {
     // Business-specific meta tags
     updateMetaTag('geo.region', 'IL-M');
     updateMetaTag('geo.placename', 'רחובות');
-    updateMetaTag('geo.position', '31.8969;34.8186');
-    updateMetaTag('ICBM', '31.8969, 34.8186');
+    updateMetaTag('geo.position', '31.89738;34.81021');
+    updateMetaTag('ICBM', '31.89738, 34.81021');
 
     // Language and direction
     document.documentElement.lang = 'he';
@@ -79,8 +79,8 @@ const SEOHead: React.FC = () => {
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 31.8969,
-        "longitude": 34.8186
+        "latitude": 31.89738,
+        "longitude": 34.81021
       },
       "openingHours": "Mo-Th 08:00-18:00",
       "priceRange": "$$",
@@ -92,8 +92,8 @@ const SEOHead: React.FC = () => {
         "@type": "GeoCircle",
         "geoMidpoint": {
           "@type": "GeoCoordinates",
-          "latitude": 31.8969,
-          "longitude": 34.8186
+          "latitude": 31.89738,
+          "longitude": 34.81021
         },
         "geoRadius": "50000"
       },

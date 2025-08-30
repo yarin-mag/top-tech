@@ -41,8 +41,8 @@ export const openSmartNavigation = (address: string) => {
   const isRealDevice = isMobile && !window.location.hostname.includes('localhost') && !window.location.hostname.includes('127.0.0.1');
 
   // Coordinates for בית הפועלים 6, רחובות
-  const lat = 31.8969;
-  const lng = 34.8186;
+  const lat = 31.89738;
+  const lng = 34.81021;
 
   if (isRealDevice) {
     // Only try geo: protocol on real mobile devices, not dev tools or localhost

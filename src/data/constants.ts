@@ -47,13 +47,13 @@ export const contactInfo = {
     phone: "+972544933286",
     whatsapp: "https://wa.me/972544933286",
     facebook: "https://m.me/elimagdaci",
-    location: "geo:31.8969,34.8186?q=בית הפועלים 6, רחובות",
+    location: "geo:31.89738,34.81021?q=בית הפועלים 6, רחובות",
     locationFallback: "https://www.google.com/maps/dir/?api=1&destination=בית%20הפועלים%206,%20רחובות",
     waze: "https://waze.com/ul/hsv8v2neyu",
     address: "בית הפועלים 6, רחובות",
     coordinates: {
-        lat: 31.8969,
-        lng: 34.8186
+        lat: 31.89738,
+        lng: 34.81021
     }
 };
 
