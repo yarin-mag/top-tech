@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://yarin-mag.github.io/top-tech",
+  "homepage": "https://www.top-tech-lab.net",
   "eslintConfig": {
     "extends": [
       "react-app"
