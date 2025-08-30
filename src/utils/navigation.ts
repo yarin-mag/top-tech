@@ -12,7 +12,7 @@ export const getNavigationOptions = (address: string): NavigationOption[] => {
   return [
     {
       name: 'Waze',
-      url: `https://waze.com/ul?q=${encodedAddress}`,
+      url: `https://www.waze.com/he/live-map/directions/%D7%91%D7%99%D7%AA-%D7%94%D7%A4%D7%95%D7%A2%D7%9C%D7%99%D7%9D-6-%D7%A8%D7%97%D7%95%D7%91%D7%95%D7%AA?to=place.w.22806847.228134006.554426`,
     },
     {
       name: 'Google Maps',
