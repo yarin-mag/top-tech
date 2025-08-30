@@ -28,14 +28,14 @@ const Header: React.FC = () => {
             <Award size={28} color="white" />
           </div>
           <div>
-            <h1 style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#111827', margin: 0 }}>{companyInfo.name}</h1>
-            <p style={{ fontSize: '0.875rem', color: '#2563eb', fontWeight: '600', margin: 0 }}>מובילים באיכות ובמקצועיות</p>
+            <h1 className="rtl-text" style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#111827', margin: 0 }}>{companyInfo.name}</h1>
+            <p className="rtl-text" style={{ fontSize: '0.875rem', color: '#2563eb', fontWeight: '600', margin: 0 }}>מובילים באיכות ובמקצועיות</p>
           </div>
         </div>
         <nav style={{ display: 'flex', gap: '2rem' }}>
-          <a href="#services" style={{ color: '#374151', textDecoration: 'none', fontWeight: '500' }}>שירותים</a>
-          <a href="#testimonials" style={{ color: '#374151', textDecoration: 'none', fontWeight: '500' }}>המלצות</a>
-          <a href="#contact" style={{ color: '#374151', textDecoration: 'none', fontWeight: '500' }}>צור קשר</a>
+          <a href="#services" className="rtl-text" style={{ color: '#374151', textDecoration: 'none', fontWeight: '500' }}>שירותים</a>
+          <a href="#testimonials" className="rtl-text" style={{ color: '#374151', textDecoration: 'none', fontWeight: '500' }}>המלצות</a>
+          <a href="#contact" className="rtl-text" style={{ color: '#374151', textDecoration: 'none', fontWeight: '500' }}>צור קשר</a>
         </nav>
       </div>
     </header>

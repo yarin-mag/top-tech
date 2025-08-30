@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
         background: 'rgba(0, 0, 0, 0.2)'
       }}></div>
       <div className="container" style={{ position: 'relative', padding: '6rem 1rem', textAlign: 'center' }}>
-        <h1 style={{
+        <h1 className="rtl-text text-center" style={{
           fontSize: 'clamp(2rem, 5vw, 4rem)',
           fontWeight: 'bold',
           marginBottom: '1.5rem',
@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
         }}>
           החיוך שלך הוא <span style={{ color: '#fbbf24' }}>המומחיות שלנו</span>
         </h1>
-        <p style={{
+        <p className="rtl-text text-center" style={{
           fontSize: 'clamp(1.125rem, 3vw, 1.5rem)',
           marginBottom: '2rem',
           color: '#dbeafe',
@@ -35,7 +35,7 @@ const HeroSection: React.FC = () => {
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
           <button 
-            className="btn btn-primary btn-lg"
+            className="btn btn-primary btn-lg rtl-text"
             style={{ background: '#16a34a', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
             onClick={() => window.open(contactInfo.whatsapp, '_blank')}
           >
@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
             שלח הודעה בוואטסאפ
           </button>
           <button 
-            className="btn btn-outline btn-lg"
+            className="btn btn-outline btn-lg rtl-text"
             style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}
             onClick={() => window.open(`tel:${contactInfo.phone}`, '_self')}
           >

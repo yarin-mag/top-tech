@@ -6,10 +6,10 @@ const ServicesSection: React.FC = () => {
     <section id="services" style={{ padding: '5rem 0', background: 'linear-gradient(135deg, #f9fafb, #e0f2fe)' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-          <h2 style={{ fontSize: 'clamp(1.875rem, 4vw, 2.5rem)', fontWeight: 'bold', color: '#111827', marginBottom: '1rem' }}>
+          <h2 className="rtl-text text-center" style={{ fontSize: 'clamp(1.875rem, 4vw, 2.5rem)', fontWeight: 'bold', color: '#111827', marginBottom: '1rem' }}>
             השירותים שלנו
           </h2>
-          <p style={{ fontSize: '1.25rem', color: '#6b7280', maxWidth: '48rem', margin: '0 auto' }}>
+          <p className="rtl-text text-center" style={{ fontSize: '1.25rem', color: '#6b7280', maxWidth: '48rem', margin: '0 auto' }}>
             פתרונות מתקדמים ומקצועיים לכל צרכי רפואת השיניים
           </p>
         </div>
@@ -28,10 +28,10 @@ const ServicesSection: React.FC = () => {
               }}>
                 <service.icon size={32} color="white" />
               </div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#111827', marginBottom: '1rem' }}>
+              <h3 className="rtl-text text-center" style={{ fontSize: '1.25rem', fontWeight: 'bold', color: '#111827', marginBottom: '1rem' }}>
                 {service.title}
               </h3>
-              <p style={{ color: '#6b7280' }}>{service.description}</p>
+              <p className="rtl-text text-center" style={{ color: '#6b7280' }}>{service.description}</p>
             </div>
           ))}
         </div>

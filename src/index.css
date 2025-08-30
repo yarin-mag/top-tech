@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  width: 100%;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -14,11 +20,37 @@ body {
   line-height: 1.6;
 }
 
+/* Prevent horizontal overflow globally */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* RTL class for Hebrew text only */
+.rtl-text {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Center RTL text when needed */
+.rtl-text.text-center {
+  text-align: center;
+}
+
 /* Utility classes */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ensure all sections don't overflow */
+section {
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .btn {
@@ -95,6 +127,24 @@ body {
   .grid-cols-3,
   .grid-cols-4 {
     grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 0 0.75rem;
+    max-width: 100%;
+  }
+  
+  .btn-lg {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 280px;
+  }
+  
+  /* Ensure proper spacing on mobile */
+  .py-20 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 

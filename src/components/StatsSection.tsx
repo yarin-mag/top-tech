@@ -11,7 +11,7 @@ const StatsSection: React.FC = () => {
               <div style={{ fontSize: 'clamp(1.875rem, 4vw, 2.5rem)', fontWeight: 'bold', color: '#2563eb', marginBottom: '0.5rem' }}>
                 {stat.number}
               </div>
-              <div style={{ color: '#6b7280', fontWeight: '500' }}>{stat.label}</div>
+              <div className="rtl-text text-center" style={{ color: '#6b7280', fontWeight: '500' }}>{stat.label}</div>
             </div>
           ))}
         </div>

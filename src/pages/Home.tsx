@@ -11,7 +11,12 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%)', direction: 'rtl' }}>
+    <div style={{ 
+      minHeight: '100vh', 
+      background: 'linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%)',
+      width: '100%',
+      overflowX: 'hidden'
+    }}>
       <SEOHead />
       <Header />
       <HeroSection />

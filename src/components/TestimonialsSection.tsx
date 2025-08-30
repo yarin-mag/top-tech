@@ -7,10 +7,10 @@ const TestimonialsSection: React.FC = () => {
     <section id="testimonials" style={{ padding: '5rem 0', background: 'white' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-          <h2 style={{ fontSize: 'clamp(1.875rem, 4vw, 2.5rem)', fontWeight: 'bold', color: '#111827', marginBottom: '1rem' }}>
+          <h2 className="rtl-text text-center" style={{ fontSize: 'clamp(1.875rem, 4vw, 2.5rem)', fontWeight: 'bold', color: '#111827', marginBottom: '1rem' }}>
             מה אומרים עלינו
           </h2>
-          <p style={{ fontSize: '1.25rem', color: '#6b7280' }}>לקוחות ממליצים עלינו</p>
+          <p className="rtl-text text-center" style={{ fontSize: '1.25rem', color: '#6b7280' }}>לקוחות ממליצים עלינו</p>
         </div>
         <div className="grid grid-cols-3">
           {testimonials.map((testimonial, index) => (
@@ -20,7 +20,7 @@ const TestimonialsSection: React.FC = () => {
                   <Star key={i} size={20} color="#fbbf24" fill="#fbbf24" />
                 ))}
               </div>
-              <p style={{ color: '#374151', marginBottom: '1rem' }}>"{testimonial.text}"</p>
+              <p className="rtl-text" style={{ color: '#374151', marginBottom: '1rem' }}>"{testimonial.text}"</p>
               <div style={{ display: 'flex', alignItems: 'center' }}>
                 <div style={{
                   width: '40px',
@@ -37,7 +37,7 @@ const TestimonialsSection: React.FC = () => {
                   </span>
                 </div>
                 <div>
-                  <p style={{ fontWeight: '600', color: '#111827', margin: 0 }}>{testimonial.name}</p>
+                  <p className="rtl-text" style={{ fontWeight: '600', color: '#111827', margin: 0 }}>{testimonial.name}</p>
                   {/* <p style={{ fontSize: '0.875rem', color: '#6b7280', margin: 0 }}>רופא שיניים</p> */}
                 </div>
               </div>
