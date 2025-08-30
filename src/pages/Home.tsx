@@ -14,8 +14,10 @@ export default function Home() {
     <div style={{ 
       minHeight: '100vh', 
       background: 'linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%)',
-      width: '100%',
-      overflowX: 'hidden'
+      width: '100vw',
+      maxWidth: '100%',
+      overflowX: 'hidden',
+      position: 'relative'
     }}>
       <SEOHead />
       <Header />
