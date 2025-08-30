@@ -49,7 +49,7 @@ export const contactInfo = {
     facebook: "https://m.me/elimagdaci",
     location: "geo:31.8969,34.8186?q=בית הפועלים 6, רחובות",
     locationFallback: "https://www.google.com/maps/dir/?api=1&destination=בית%20הפועלים%206,%20רחובות",
-    waze: "https://waze.com/ul?ll=31.8969,34.8186&navigate=yes&q=בית%20הפועלים%206%20רחובות",
+    waze: "https://waze.com/ul/hsv8v2neyu",
     address: "בית הפועלים 6, רחובות",
     coordinates: {
         lat: 31.8969,
