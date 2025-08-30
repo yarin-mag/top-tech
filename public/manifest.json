@@ -1,25 +1,27 @@
 {
   "short_name": "טופ-טק",
-  "name": "מעבדת שיניים טופ-טק",
+  "name": "מעבדת שיניים טופ-טק רחובות",
+  "description": "מעבדת שיניים מובילה ברחובות - שתלים, כתרים ותותבות שיניים",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "lang": "he",
+  "dir": "rtl",
+  "categories": ["medical", "health", "business"],
+  "keywords": [
+    "מעבדת שיניים",
+    "רחובות", 
+    "טופ-טק",
+    "תותבות שיניים",
+    "שתלים",
+    "כתרים"
+  ]
 }
