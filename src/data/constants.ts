@@ -37,7 +37,7 @@ export const testimonials = [
 ];
 
 export const stats = [
-    { number: "15+", label: "שנות ניסיון" },
+    { number: "20+", label: "שנות ניסיון" },
     { number: "500+", label: "רופאים שותפים" },
     { number: "10,000+", label: "מטופלים מרוצים" },
     { number: "24", label: "שעות אספקה" }
