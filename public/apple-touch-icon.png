@@ -1,0 +1,8 @@
+<!-- This would be a PNG file, but I'll create an SVG version for now -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <rect width="180" height="180" rx="20" fill="#2563eb"/>
+  <path d="M90 30c-20 0-35 15-35 30v20c0 25 8 35 12 45 3 8 6 12 8 18 2 4 5 7 8 7s6-3 8-7c2-6 5-10 8-18 4-10 12-20 12-45v-20c0-15-15-30-35-30z" fill="white"/>
+  <path d="M75 65c0-8 6-12 12-12s12 4 12 12v12c0 4-4 8-8 8s-8-4-8-8v-12z" fill="#2563eb"/>
+  <circle cx="80" cy="85" r="4" fill="#e5e7eb"/>
+  <circle cx="100" cy="85" r="4" fill="#e5e7eb"/>
+</svg>
