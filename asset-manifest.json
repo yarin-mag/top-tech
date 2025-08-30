@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/top-tech/static/css/main.14eef29d.css",
-    "main.js": "/top-tech/static/js/main.b1e7f999.js",
-    "index.html": "/top-tech/index.html",
-    "main.14eef29d.css.map": "/top-tech/static/css/main.14eef29d.css.map",
-    "main.b1e7f999.js.map": "/top-tech/static/js/main.b1e7f999.js.map"
+    "main.css": "/static/css/main.14eef29d.css",
+    "main.js": "/static/js/main.b1e7f999.js",
+    "index.html": "/index.html",
+    "main.14eef29d.css.map": "/static/css/main.14eef29d.css.map",
+    "main.b1e7f999.js.map": "/static/js/main.b1e7f999.js.map"
   },
   "entrypoints": [
     "static/css/main.14eef29d.css",
