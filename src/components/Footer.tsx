@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           textAlign: 'center', 
           color: '#9ca3af' 
         }}>
-          <p>&copy; 2024 {companyInfo.name}. כל הזכויות שמורות.</p>
+          <p>&copy; {new Date().getFullYear()} {companyInfo.name}. כל הזכויות שמורות.</p>
         </div>
       </div>
     </footer>

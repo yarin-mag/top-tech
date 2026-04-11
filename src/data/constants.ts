@@ -78,5 +78,5 @@ export const seoContent = {
     keywords: "מעבדת שיניים רחובות, טופ-טק, תותבות שיניים רחובות, תותבות חדשות רחובות, תיקון תותבות רחובות, בית הפועלים 6",
     author: "מעבדת שיניים טופ-טק",
     robots: "index, follow",
-    canonical: "https://top-tech-dental.co.il"
+    canonical: "https://www.top-tech-lab.net"
 };

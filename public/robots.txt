@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://top-tech-dental.co.il/sitemap.xml
+Sitemap: https://www.top-tech-lab.net/sitemap.xml
 
 # Allow all search engines
 User-agent: Googlebot
@@ -23,7 +23,7 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# AI Crawlers for AEO (Answer Engine Optimization)
+# AI Crawlers (AEO — Answer Engine Optimization)
 User-agent: GPTBot
 Allow: /
 
@@ -39,5 +39,8 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-# Crawl-delay for respectful crawling
-Crawl-delay: 1
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
