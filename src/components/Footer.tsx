@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Award, Phone, MapPin, Clock } from 'lucide-react';
 import { companyInfo } from '../data/constants';
+import AccessibilityModal from './AccessibilityModal';
 
 const Footer: React.FC = () => {
+  const [showAccessibility, setShowAccessibility] = useState(false);
+
   return (
     <footer style={{ background: '#111827', color: 'white', padding: '3rem 0' }}>
       <div className="container">
@@ -52,15 +55,27 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
-        <div style={{ 
-          borderTop: '1px solid #374151', 
-          marginTop: '2rem', 
-          paddingTop: '2rem', 
-          textAlign: 'center', 
-          color: '#9ca3af' 
+        <div style={{
+          borderTop: '1px solid #374151',
+          marginTop: '2rem',
+          paddingTop: '2rem',
+          textAlign: 'center',
+          color: '#9ca3af'
         }}>
           <p>&copy; {new Date().getFullYear()} {companyInfo.name}. כל הזכויות שמורות.</p>
+          <button
+            onClick={() => setShowAccessibility(true)}
+            style={{
+              background: 'none', border: 'none', cursor: 'pointer',
+              color: '#9ca3af', marginTop: '0.5rem',
+              fontSize: '0.875rem', textDecoration: 'underline',
+              padding: 0
+            }}
+          >
+            הצהרת נגישות
+          </button>
         </div>
+        {showAccessibility && <AccessibilityModal onClose={() => setShowAccessibility(false)} />}
       </div>
     </footer>
   );
